@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  python:
+    image: python:3-alpine
+    working_dir: /root/app
+    tty: true
+    volumes:
+      - .:/root/app
